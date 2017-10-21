@@ -13,6 +13,8 @@
 		069A319B1B7940EC00401D64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 069A319A1B7940EC00401D64 /* Images.xcassets */; };
 		069A319E1B7940EC00401D64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 069A319C1B7940EC00401D64 /* LaunchScreen.xib */; };
 		069A31AA1B7940EC00401D64 /* PicturePerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069A31A91B7940EC00401D64 /* PicturePerfectTests.swift */; };
+		069A31B41B795E2700401D64 /* RecordingAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069A31B31B795E2700401D64 /* RecordingAudio.swift */; };
+		069A31B61B799D5400401D64 /* PlaySoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069A31B51B799D5400401D64 /* PlaySoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		069A31A31B7940EC00401D64 /* PicturePerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicturePerfectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		069A31A81B7940EC00401D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		069A31A91B7940EC00401D64 /* PicturePerfectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturePerfectTests.swift; sourceTree = "<group>"; };
+		069A31B31B795E2700401D64 /* RecordingAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecordingAudio.swift; path = ../RecordingAudio.swift; sourceTree = "<group>"; };
+		069A31B51B799D5400401D64 /* PlaySoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				069A31931B7940EC00401D64 /* AppDelegate.swift */,
+				069A31B31B795E2700401D64 /* RecordingAudio.swift */,
 				069A31951B7940EC00401D64 /* ViewController.swift */,
+				069A31B51B799D5400401D64 /* PlaySoundViewController.swift */,
 				069A31971B7940EC00401D64 /* Main.storyboard */,
 				069A319A1B7940EC00401D64 /* Images.xcassets */,
 				069A319C1B7940EC00401D64 /* LaunchScreen.xib */,
@@ -213,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				069A31961B7940EC00401D64 /* ViewController.swift in Sources */,
+				069A31B41B795E2700401D64 /* RecordingAudio.swift in Sources */,
+				069A31B61B799D5400401D64 /* PlaySoundViewController.swift in Sources */,
 				069A31941B7940EC00401D64 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +417,7 @@
 				069A31AF1B7940EC00401D64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		069A31B01B7940EC00401D64 /* Build configuration list for PBXNativeTarget "PicturePerfectTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				069A31B21B7940EC00401D64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
